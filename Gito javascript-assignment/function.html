@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+</head>
+<body>
+      <script>
+           function foo(a,b){
+                 return a+b;
+                 
+           }
+           console.log(foo(1,3));
+
+           var fun = function(z)
+           {
+                 return z;
+           }
+           console.log(fun(123));
+
+      // Reference
+
+      var a = +prompt("enter the number");
+      function fun(x)
+      {
+            var x = x+10;
+            return x;
+      }
+      console.log(fun(a));
+      console.log(a);
+
+     // objects are passed by reference in js functions
+      var obj = { car:"odi",
+                  model:"350i",
+                  year:2019}
+                  function fun(qw){
+                        qw.car = "BMW";
+                        return qw.car;
+                  }
+                  console.log(fun(obj));
+                  console.log(obj.car)
+
+      // invoking function
+      var obj = {
+            name:"arjun",
+            age:21,
+            place:"KA",
+            info:function(obj){
+                  return this.place;
+            }
+      }
+            console.log(obj.info())
+
+            
+            
+      
+                  
+      
+           
+     </script>
+</body>
+</html>

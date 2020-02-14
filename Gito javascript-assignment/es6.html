@@ -1,0 +1,117 @@
+<!-- Name: Arjun R
+Date: 14-02-2020 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+</head>
+<body>
+      
+</body>
+<script>
+      // spread operators clone the arrays and objects easily
+      var arr = [1,2,3,4,5,6];
+      var b = [2,12,45,21];
+      var c = [...arr,...b];
+      console.log(c);
+
+      var obj = {name:"DON"};
+      var objj = {age:90};
+      var c = {...obj, ...objj, location:"KA"};
+      console.log(c);
+
+      var x = arr.concat(b)
+      console.log(x);
+
+//   template literals
+      var str = "hi, my\n name is raj"; //instead of using slash n , use template literals ``;
+      console.log(str);
+      
+      var name = "arjun"
+      var st = `
+      hi how are you
+      king am not ${name} using this man.`;
+      console.log(st);
+
+      // object literals
+
+      var obj = {
+            user:"Raju",
+            password:12902,
+            login(){
+                  console.log(this.obj,"logged in")
+            },
+            logout(){
+                  console.log(this.obj,"log out!");
+            }
+      } 
+
+      //let and const is block scope variable
+      //var is function scope variable
+
+      function foo(){
+      for(let i=0; i<=5 ; i++){
+            console.log(i,'inside block');  
+      }
+      console.log(i,'out side block(Error)');  
+      
+      }
+      foo();
+
+      function poo(){
+      for(var i=0; i<=5 ; i++){
+            
+      }
+      console.log(i,'inside function block');  
+      
+      }
+      poo();
+
+      // let not attaches to window object
+      // var attaches to window
+
+      var a = 'arjun'
+      console.log(window.a);
+
+      let z = 'boss'
+      console.log(window.z);
+      
+      
+
+      //let cant be redeclare variables multiple times with same name.
+      //var can be..
+
+      let xd = 20;
+      let xd = 30;
+      console.log(x,"error");
+
+      var y = 50;
+      var y= 90;
+      console.log(y,'success');
+      
+      // Arrow function
+      // Exclude function name 
+
+      var mark = (a,b) => {
+             return a+b
+      }
+      console.log(mark(2,2));
+      
+      
+                 
+
+      
+      
+      
+      
+      
+</script>
+</html>

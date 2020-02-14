@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Array</title>
+</head>
+<body>
+      <script>
+      var Arr = ['java','c','python','angular','react','vue'];
+      console.log(Arr);
+      console.log(Arr[3]);
+      console.log(Arr.length);
+
+      Arr.pop() //remove last item 
+      console.log(Arr)
+      
+      var Item = Arr.push("JAVASCRIPT"); //add new item in last
+      console.log(Arr)
+
+      Arr.join("+")//concat all array into string (opposite to split)
+      console.log(Arr)
+
+      var a = Arr.concat("CSS");
+      console.log(a);
+
+      Arr.shift()//remove first item in array
+      console.log(Arr)
+
+      Arr.unshift("Redux")//add item in array
+      console.log(Arr)
+
+      // string method
+      var str = "hi man, how are you"
+      var t = str.indexOf('w')//searche items and return its position 
+      console.log(t)
+
+      var y = str.lastIndexOf("e")//search item from last and return position
+      console.log(y)
+
+      var res = str.replace("how","where")// replace the string
+      console.log(res);
+
+      var z = str.split(' ') //convert string to array
+      var y = str.split(',')
+      console.log(z);
+      console.log(y);
+
+      var x = str.charAt(5)//returns character at sepcified  index
+      console.log(x);
+ 
+
+      
+      </script>
+</body>
+</html>
