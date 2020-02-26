@@ -1,0 +1,8 @@
+[
+      {"id": 35,"image": "images (1).jpg", "item": "jumper", "color": "red", "size": "medium", "price": 20},
+      {"id": 36, "image": "images (2).jpg","item": "HUNKER", "color": "green", "size": "large", "price": 20},
+      {"id": 37, "image": "images (3).jpg","item": "Lunder", "color": "blue", "size": "small", "price": 22},
+      {"id": 35, "image": "images.jpg", "color": "red", "size": "medium", "price": 20},
+      {"id": 36, "image": "images (1).jpg", "color": "green", "size": "large", "price": 20},
+      {"id": 37,"image": "images (2).jpg", "item": "Lunder", "color": "blue", "size": "small", "price": 22} 
+]

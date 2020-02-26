@@ -1,0 +1,48 @@
+h1{
+  color: red;
+}
+.headg {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.fd{
+  color: blue;
+}
+.ff{
+  color:  palevioletred;
+}
+.navbar
+{
+  background-color: red;
+  font-size: 15px;
+  color: aliceblue;
+}
+ a
+{
+  color: #ffffff!important;
+  font-weight: 600;
+  padding: 50px;
+}
+.foot {
+  background-color: black;
+  color:white;
+  font-weight: 600;
+}
+.home{
+  background-color: aquamarine;
+  padding:30px;
+}
+.about{
+  background-color: rgb(53, 155, 28);
+  padding:30px;
+}
+.blog{
+  background-color: blue;
+  color: #ffffff;
+  padding:30px;
+}
+.contact{
+  background-color: tan;
+  padding:30px;
+}
