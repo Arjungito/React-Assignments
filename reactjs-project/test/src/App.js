@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Class from './components/component-types/class';
 import Greet from './components/component-types/function';
 import Arrow from './components/component-types/arrowfn';
