@@ -19,6 +19,7 @@ class Events extends Component {
       render() {
             return (
                   <div> 
+                        <h2>Adding events</h2>
                          {/* 3 types of binding, first two methods are performance issues in big projects */}
                         <h6 className="ff">{this.state.message}</h6>
                         <button onClick = {this.Change.bind(this)}>Change</button>
