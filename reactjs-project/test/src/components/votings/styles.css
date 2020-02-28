@@ -1,0 +1,31 @@
+body {
+      color: #000;
+    }
+    
+    .main img {
+      margin-right: 2rem;
+    }
+    h1 {
+      text-align: center;
+    }
+    i,
+    a {
+      color: black!important;
+      /* font-size: 20px; */
+    }
+    .club {
+      color: #000;
+    }
+    i:hover 
+     {
+      outline: none;
+      color: #000;
+    }
+    p {
+      font-size: 20px;
+    }
+    
+    .main {
+      font-size: 20px;
+    }
+    

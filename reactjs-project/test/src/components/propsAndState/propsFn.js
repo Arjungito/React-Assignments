@@ -2,7 +2,7 @@ import React from 'react'
 
 //props is an object which describe the attributes 
 const Fn = (props) => {
-      console.log(props);
+      console.log("props",props);
       
       return <div>
             <h4>{props.place}</h4>

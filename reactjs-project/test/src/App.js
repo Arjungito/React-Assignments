@@ -15,6 +15,8 @@ import {
 } from "react-router-dom";
 import Footer from './components/router/footer';
 import Routerparameter from './components/router/routerparameter';
+import PlayersList from './components/votings/PlayersList';
+
 
 
 function App() {
@@ -28,12 +30,13 @@ function App() {
       <Route path = '/contactus' component={ContactUs}/>
       <Route path = '/blog' component={Blog}/>
       <Route path = '/myProjects' component = {MyProjects}/>
+      <Route path = '/PlayersList' component = {PlayersList}/>
       <Route path = '/arjun/:post_id' component={Routerparameter}/>
       </Router>
       <Footer/>
       
-       
-      </div>     
+     </div>     
+
   ) 
 }
 
